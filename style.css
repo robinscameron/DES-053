@@ -59,9 +59,10 @@ margin:10;
 }
 
 .right {
-    margin:10;
+  
   width: 50vw;
-  background-color:orange
+  background-color:orange;
+  margin:20;
 }
 
 .left, 
