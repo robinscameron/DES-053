@@ -29,9 +29,10 @@ body,
 p,
 .h1 {
   font-family:'Berthold Akzidenz Grotesk BE', sans-Serif;
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   line-height: 1.1;
+  color:white
 }
 
 .container {
@@ -52,11 +53,15 @@ p,
 }
 
 .left {
+margin:10;
   width: 50vw;
+  background-color: blue
 }
 
 .right {
+    margin:10;
   width: 50vw;
+  background-color:orange
 }
 
 .left, 
@@ -82,9 +87,10 @@ a:hover {
 .row {
   width: auto;
   height: auto;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   padding: 10px 10px 10px 10px;
-  border-right: 1px solid black;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
 
   display: grid;
   grid-template-columns: 36px auto;
@@ -92,7 +98,7 @@ a:hover {
 
 .section {
   padding: 10px 40px 10px 10px;
-  border-top: 1px solid black;
+  border-top: 1px solid white;
 }
 
 #syllabus {
