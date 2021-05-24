@@ -44,7 +44,7 @@ p,
 	display: flex;
 	flex-direction: row;
 	-webkit-flex-direction: row;
-  overflow-x: hidden !important;
+  overflow-x: hidden !important; 
   overflow-y: hidden !important;
   width: 100vw;
   height: 100vh;
@@ -88,7 +88,7 @@ a:hover {
 .row {
   width: auto;
   height: auto;
-  border-bottom: 1px solid white;
+  border-top:1px solid white;
   padding: 10px 10px 10px 10px;
   border-right: 1px solid white;
   border-left: 1px solid white;
@@ -97,9 +97,21 @@ a:hover {
   grid-template-columns: 36px auto;
 }
 
+.last-row
+{
+    width: auto;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    display: grid;
+    grid-template-columns: 36px auto;
+    border-bottom:1px solid white;
+}
+
 .section {
-  padding: 10px 40px 10px 10px;
-  border-top: 1px solid white;
+  padding: 20px 40px 10px 10px;
+
 }
 
 #syllabus {
@@ -115,7 +127,7 @@ a:hover {
 /* Text*/
 
 ol {
-  list-style-type: circle;
+  list-style-type: square;
   margin-left: 20px;
 }
 
