@@ -35,6 +35,13 @@ p,
   color:white
 }
 
+.date
+{
+    font-family:'Berthold Akzidenz Grotesk BE', sans-Serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .container {
 	margin: 0px;
 	display: -webkit-box;
@@ -73,16 +80,22 @@ margin:10;
   height: 100vh;
 }
 
+.schedule
+{
+    margin:10;
+      font-size: 12px;
+      line-height: 1.1;
+
+}
 
 
-a {
-  color: black;
-  text-decoration: none;
-  z-index: 10;
+a { color:white;
+    text-decoration: none;
+    border-bottom: white 0.125em solid;
 }
 
 a:hover {
-  color: white;
+  color:white;
 }
 
 .row {
@@ -94,7 +107,7 @@ a:hover {
   border-left: 1px solid white;
 
   display: grid;
-  grid-template-columns: 48px auto;
+  grid-template-columns: 300px, auto;
 }
 
 .last-row
@@ -105,7 +118,7 @@ a:hover {
     border-right: 1px solid white;
     border-left: 1px solid white;
     display: grid;
-    grid-template-columns: 48px auto;
+    grid-template-columns: 300px auto;
     border-bottom:1px solid white;
 }
 
@@ -154,7 +167,7 @@ blockquote {
   }
 
   .row {
-    grid-template-columns: 26px auto;
+    grid-template-columns: 1fr;
   }
   
 } 
