@@ -1,5 +1,3 @@
-
-/* Fonts */
 @font-face {
 	font-family: 'Berthold Akzidenz Grotesk BE';
 	src: url('AkzidenzGroteskBE-Regular.eot');
@@ -26,7 +24,10 @@
   padding: 0;
 }
 
-html, body, p,
+html, 
+body, 
+p,
+.h1
  {
   font-family:'Berthold Akzidenz Grotesk BE', sans-Serif;
   font-size: 18px;
