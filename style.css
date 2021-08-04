@@ -27,7 +27,7 @@
 html, 
 body, 
 p,
-.h1
+h1
  {
   font-family:'Berthold Akzidenz Grotesk BE', sans-Serif;
   font-size: 18px;
@@ -59,7 +59,9 @@ p,
 
 .polcies
 {
-  background-color:#009A17
+  background-color:#009A17;
+  margin:20;
+
 }
 
 
