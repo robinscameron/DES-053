@@ -70,6 +70,19 @@ i {
 }
 
 
+.second
+ {
+  background-color:#009A17;
+  width:100vw;
+
+}
+
+.content {
+
+  width:50vw;
+}
+
+
 /* Sides */
 
 .left {
@@ -86,7 +99,8 @@ margin:20;
 }
 
 .left, 
-.right {
+.right,
+.second {
   overflow-y: scroll; 
   overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
