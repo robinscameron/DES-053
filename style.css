@@ -68,7 +68,7 @@ i {
 {
   background-color:#009A17;
   padding: 50px 600px 50px 50px;
-
+width:750vw;
 
 }
 
@@ -214,3 +214,10 @@ blockquote {
   }
   
 } 
+
+.polcies
+{
+  background-color:#009A17;
+  width:75vw;
+
+}
